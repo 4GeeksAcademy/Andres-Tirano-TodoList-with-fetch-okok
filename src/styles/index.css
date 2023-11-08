@@ -1,12 +1,84 @@
+body {
+    margin-top: 100px;
+    background-color: white;
+}
 
-/* 
+.container {
+    background-size: cover;
+    background-color: white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  .first {
+    border: none;
+    width: 200px; 
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 10px; 
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .trash {
+    cursor: pointer;
+    color: black; 
+    transition:  color 0.3s; 
+  }
+  .trash:hover {
+    color: red; 
+  }
+  .task {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7FFFD4; 
+    border: 1px solid black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px; 
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+}
+.clear-button {
+  background-color: #7fffd4;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
-*/
+.clear-button:hover {
+  background-color: #00ced1;
+}
